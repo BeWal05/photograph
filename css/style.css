@@ -1,0 +1,32 @@
+/*MENYN*/
+ul {
+  list-style-type: none; /*Tar bort plupparna på listan*/
+  margin: 0;
+  padding: 0;
+  position: fixed; /*Gör så att menyn följer med när man scrollar*/
+  top: 0;
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  justify-content: center; /*Gör så att texten hamnar i mitten av menyn*/
+}
+
+li {
+  float: left; /*Texten i menyn lägger sig bredvid varandra*/
+  font-family: Alegreya sans sc;
+  padding-left: 5%;
+  padding-right: 5%;
+  vertical-align: middle; /*Gör så att listans rubriker lägger sig på en vertical linje*/
+}
+
+li a {
+  text-decoration: none; /*Tar bort strecket under länken*/
+  color: black;
+}
+h3{
+  vertical-align: middle;
+}
+
+li a:hover {
+  color:rgb(180, 180, 180); /*Länken blir ljusgrå när man håller muspekaren över texten*/
+}
