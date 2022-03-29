@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0; /*Tar bort margin och padding om inget annat anges i koden*/
+}
+
 /*MENYN*/
 ul {
   list-style-type: none; /*Tar bort plupparna på listan*/
@@ -11,22 +16,62 @@ ul {
   justify-content: center; /*Gör så att texten hamnar i mitten av menyn*/
 }
 
-li {
+.meny {
   float: left; /*Texten i menyn lägger sig bredvid varandra*/
   font-family: Alegreya sans sc;
   padding-left: 5%;
   padding-right: 5%;
-  vertical-align: middle; /*Gör så att listans rubriker lägger sig på en vertical linje*/
+  display: flex;
+  align-items: center; /*Lägger texten i menyn på en rak linje*/
 }
 
 li a {
   text-decoration: none; /*Tar bort strecket under länken*/
   color: black;
 }
-h3{
-  vertical-align: middle;
-}
 
 li a:hover {
   color:rgb(180, 180, 180); /*Länken blir ljusgrå när man håller muspekaren över texten*/
+}
+
+
+
+/*FÖRSTA SIDAN*/
+h2{
+  font-family: Alegreya sans sc;
+  background-color: rgb(28, 117, 156);
+  color: white;
+}
+
+p {
+  font-family: Alegreya sans sc;
+  background-color: rgb(28, 117, 156);
+  color: white;
+}
+
+
+
+/*KONTAKTUPPGIFTER*/
+h4{
+  background-color: rgb(30, 93, 124);
+  color: white;
+  font-family: Alegreya sans sc;
+  display: flex;
+  justify-content: center; /*Gör så att texten hamnar i mitten*/
+  align-items: center; /*Lägger texten i mitten av grid-rutan*/
+}
+
+ol{
+  list-style-type: none; /*Tar bort plupparna på listan*/
+  bottom: 0;
+  background-color: rgb(30, 93, 124);
+  color: white;
+  display: flex;
+  justify-content: space-between; /*Gör så att texten får lika mycket utrymme mellan sig*/
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.kontakt{
+  font-family: Alegreya sans sc;
 }
