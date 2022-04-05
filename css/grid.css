@@ -10,6 +10,18 @@ ul {
   grid-row: 1/2;
 }
 
+/*JAVA SCRIPT / BIDLSPEL*/
+.slideshow-container{
+  grid-column: 1/-1;
+  grid-row: 2/3;
+}
+
+.dotrow{
+  grid-column: 1/-1;
+  grid-row: 2/3;
+}
+/* SLUT PÅ JAVASCRIPT*/
+
 /*FÖRSTA SIDAN*/
 h2 {
   grid-column: 2/3;
