@@ -6,8 +6,7 @@
 /*MENYN*/
 ul {
   list-style-type: none; /*Tar bort plupparna på listan*/
-  margin: 0;
-  padding: 0;
+  padding-left: 4%;
   position: fixed; /*Gör så att menyn följer med när man scrollar*/
   top: 0;
   width: 100%;
@@ -59,6 +58,7 @@ h4{
   display: flex;
   justify-content: center; /*Gör så att texten hamnar i mitten*/
   align-items: center; /*Lägger texten i mitten av grid-rutan*/
+  font-size: 125%;
 }
 
 ol{
@@ -70,8 +70,21 @@ ol{
   justify-content: space-between; /*Gör så att texten får lika mycket utrymme mellan sig*/
   padding-left: 5%;
   padding-right: 5%;
+  align-items: baseline;
 }
 
 .kontakt{
   font-family: Alegreya sans sc;
+}
+
+#iconlist{
+  background-color: rgb(30, 93, 124);
+  justify-content: space-between;
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.material-icons{
+  width: 100%;
 }
