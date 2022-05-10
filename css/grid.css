@@ -4,13 +4,15 @@
   grid-template-rows: repeat(16, auto);
 }
 
+/*DROP DOWN MENY*/
+ .dropdown{
+   grid-column: 1/2;
+   grid-row: 1/2;
+ }
+ /* SLUT PÅ DROP DOWN MENY*/
+
 /*JAVA SCRIPT / BIDLSPEL*/
 .slideshow-container{
-  grid-column: 1/-1;
-  grid-row: 2/3;
-}
-
-.dotrow{
   grid-column: 1/-1;
   grid-row: 2/3;
 }
