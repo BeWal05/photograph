@@ -3,6 +3,10 @@
   padding: 0; /*Tar bort margin och padding om inget annat anges i koden*/
 }
 
+.container{
+  margin-top: 5vh;
+}
+
 /*MENYN*/
 ul {
   list-style-type: none; /*Tar bort plupparna på listan*/
@@ -13,6 +17,7 @@ ul {
   background-color: rgb(235, 235, 235);
   display: flex;
   justify-content: center; /*Gör så att texten hamnar i mitten av menyn*/
+  height: 5vh;
 }
 
 .meny {
@@ -96,52 +101,78 @@ li a:hover {
   position: absolute;
   top: 0;
 }
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
 /*SLUT PÅ JAVASCRIPT*/
 
 /*FÖRSTA SIDAN*/
-h2{
+#h2nr1{
   font-family: Alegreya sans sc;
   background-color: rgb(28, 117, 156);
   color: white;
   padding-top: 20%;
-  padding-left: 33%;
+  display: flex;
+  justify-content: center;
 }
 
-p {
+#pnr1 {
   font-family: Alegreya sans sc;
   background-color: rgb(28, 117, 156);
   color: white;
   padding: 5%;
 }
 
+#trädbild, #fönsterbild, #maskinbild{
+  width: 100%;
+}
+
+#topplänk{
+  display: flex;
+  color: black;
+  font-family: Alegreya sans sc;
+  justify-content: center;
+}
+
+/*SLUT PÅ FÖRSTA SIDAN*/
+
+/*ANDRA SIDAN*/
+#h2nr2{
+  font-family: Alegreya sans sc;
+  background-color: rgb(30, 93, 124);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#pnr2{
+  font-family: Alegreya sans sc;
+  color: black;
+}
+
+h5{
+  font-family: Alegreya sans sc;
+  background-color: rgb(28, 117, 156);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#pnr3, #pnr4, #pnr5 {
+  font-family: Alegreya sans sc;
+  background-color: rgb(28, 117, 156);
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+#externlänk{
+  color: white;
+}
+
+#bild2sid{
+  width: 100%;
+}
 
 
 /*KONTAKTUPPGIFTER*/
