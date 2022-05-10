@@ -116,63 +116,75 @@ ol{
 @media only screen and (max-width: 725px){
 /*FÖRSTA SIDAN*/
 h2 {
-  grid-column: 3/4;
+  grid-column: 1/-1;;
 }
 
 #pnr1{
-  grid-column: 3/4;
+  grid-column: 1/-1;
   grid-row: 4/5;
 }
 
 #trädbild{
-  grid-column: 3/4;
+  grid-column: 1/-1;
   grid-row: 5/6;
 }
 
 #fönsterbild{
+  grid-column: 1/-1;
   grid-row: 6/7;
 }
 
 #maskinbild{
-  grid-column: 3/4;
+  grid-column: 1/-1;
   grid-row: 7/8;
 }
 
 #topplänk{
+  grid-column: 1/-1;
   grid-row: 12/13;
 }
 /*SLUT PÅ FÖRSTA SIDAN*/
 
 /*ANDRA SIDAN*/
+#h2nr2{
+  grid-column: 1/-1;
+}
+
+#pnr2{
+  grid-column: 1/-1;
+}
+
 #h5nr1{
-  grid-column: 3/4;
+  grid-column: 1/-1;
 }
 
 #pnr3{
-  grid-column: 3/4;
+  grid-column: 1/-1;
   grid-row: 6/7;
 }
 
 #h5nr2{
+  grid-column: 1/-1;
   grid-row: 7/8;
 }
 
 #pnr4{
+  grid-column: 1/-1;
   grid-row: 8/9;
 }
 
 #h5nr3{
-  grid-column: 3/4;
+  grid-column: 1/-1;
   grid-row: 9/10;
 }
 
 #pnr5{
-  grid-column: 3/4;
+  grid-column: 1/-1;
   grid-row: 10/11;
 }
 
 #bild2sid{
-  grid-column: 3/4;
+  grid-column: 1/-1;
   grid-row: 11/12;
 }
 
