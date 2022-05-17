@@ -239,7 +239,7 @@ ol{
   color: white;
   padding: 10%;
   border: none;
-  display: none; /*visas inte när sidan är större än 725px*/
+  display: none; /*visas inte när sidan är större än 790px*/
   margin-bottom: 5%;
 }
 
@@ -276,13 +276,13 @@ ol{
 .dropdown:hover .dropbtn {background-color: rgb(117, 117, 117);}
 
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 790px){
   ul{
-   display: none; /*menyn försvinner när sidan blir mindre än 725px*/
+   display: none; /*menyn försvinner när sidan blir mindre än 790px*/
   }
 
   .dropbtn{
-    display: block; /*visar dropdown menyn när sidan blir mindre än 725px*/
+    display: block; /*visar dropdown menyn när sidan blir mindre än 790px*/
   }
 
   .container{
