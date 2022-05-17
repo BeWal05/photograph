@@ -276,7 +276,7 @@ ol{
 .dropdown:hover .dropbtn {background-color: rgb(117, 117, 117);}
 
 
-@media only screen and (max-width: 725px){
+@media only screen and (max-width: 750px){
   ul{
    display: none; /*menyn försvinner när sidan blir mindre än 725px*/
   }
