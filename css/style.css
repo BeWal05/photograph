@@ -4,7 +4,7 @@
 }
 
 .container{
-  margin-top: 5vh;
+  margin-top: 5vh; /*Grid börjar en bit ner på sidan*/
 }
 
 /*MENYN*/
@@ -18,7 +18,7 @@ ul {
   display: flex;
   justify-content: center; /*Gör så att texten hamnar i mitten av menyn*/
   height: 5vh;
-  z-index: 1; /*lägger emnyn lägt fram*/
+  z-index: 1; /*lägger menyn längst fram*/
 }
 
 .meny {
