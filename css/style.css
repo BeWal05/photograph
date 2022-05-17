@@ -23,7 +23,7 @@ ul {
 
 .meny {
   float: left; /*Texten i menyn lägger sig bredvid varandra*/
-  font-family: Alegreya sans sc;
+  font-family: "Alegreya sans sc";
   padding-left: 5%;
   padding-right: 5%;
   display: flex;
@@ -91,7 +91,7 @@ li a:hover {
   bottom: 8px;
   width: 100%;
   text-align: center;
-  font-family: Alegreya sans sc;
+  font-family: "Alegreya sans sc";
 }
 
 /* Number text (1/3 etc) */
@@ -106,7 +106,7 @@ li a:hover {
 
 /*FÖRSTA SIDAN*/
 #h2nr1{
-  font-family: Alegreya sans sc;
+  font-family: "Alegreya sans sc";
   background-color: rgb(28, 117, 156);
   color: white;
   display: flex;
@@ -116,7 +116,7 @@ li a:hover {
 }
 
 #pnr1 {
-  font-family: Alegreya sans sc;
+  font-family: "Alegreya sans sc";
   background-color: rgb(28, 117, 156);
   color: white;
   padding: 3%;
@@ -132,7 +132,7 @@ li a:hover {
 #topplank{
   display: flex;
   color: black;
-  font-family: Alegreya sans sc;
+  font-family: "Alegreya sans sc";
   justify-content: center;
   margin: 9%;
 }
@@ -141,7 +141,7 @@ li a:hover {
 
 /*ANDRA SIDAN*/
 #h2nr2{
-  font-family: Alegreya sans sc;
+  font-family: "Alegreya sans sc";
   background-color: rgb(30, 93, 124);
   color: white;
   display: flex;
@@ -152,14 +152,14 @@ li a:hover {
 }
 
 #pnr2{
-  font-family: Alegreya sans sc;
+  font-family: "Alegreya sans sc";
   color: black;
   margin-bottom: 3%;
   padding: 3%;
 }
 
 h5{
-  font-family: Alegreya sans sc;
+  font-family: "Alegreya sans sc";
   background-color: rgb(28, 117, 156);
   color: white;
   display: flex;
@@ -169,7 +169,7 @@ h5{
 }
 
 #pnr3, #pnr4, #pnr5 {
-  font-family: Alegreya sans sc;
+  font-family: "Alegreya sans sc";
   background-color: rgb(28, 117, 156);
   color: white;
   padding-left: 10%;
@@ -191,7 +191,7 @@ h5{
 h4{
   background-color: rgb(30, 93, 124);
   color: white;
-  font-family: Alegreya sans sc;
+  font-family: "Alegreya sans sc";
   display: flex;
   justify-content: center; /*Gör så att texten hamnar i mitten*/
   align-items: center; /*Lägger texten i mitten av grid-rutan*/
@@ -212,7 +212,7 @@ ol{
 }
 
 .kontakt{
-  font-family: Alegreya sans sc;
+  font-family: "Alegreya sans sc";
 }
 
 #iconlist{
@@ -255,7 +255,7 @@ ol{
   position: absolute;
   background-color: #f1f1f1;
   z-index: 1;
-  font-family: Alegreya sans sc;
+  font-family: "Alegreya sans sc";
 }
 
 /* Links inside the dropdown */
