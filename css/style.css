@@ -209,9 +209,6 @@ ol{
   padding-left: 5%;
   padding-right: 5%;
   align-items: baseline;
-}
-
-.kontakt{
   font-family: "Alegreya sans sc";
 }
 
@@ -307,3 +304,13 @@ ol{
     margin-top:0;
   }
 }
+
+@media only screen and (max-width: 500px){
+  #contactlist {
+    display: block; /*lägger listraderna ovanpå varandra istället för bredvid*/
+    line-height: 280%; /*skapar lite mellanrum mellan raderna så att listraderna ligger på samma höjd som iconerna*/
+  }
+
+  #iconlist{
+    display: block; /*lägger iconerna ovanpå varandra istället för bredvid*/
+  }
